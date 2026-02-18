@@ -1,0 +1,68 @@
+{
+    "headerArray": [
+        {
+            "name": "Verscsoport"
+        },
+        {
+            "name": "Verscím"
+        },
+        {
+            "name": "Évszám"
+        }
+    ],
+    "tbodyArray": [
+        {
+            "verscsoport": "Istenes versek",
+            "rowspan": 2,
+            "vers": "Adj már csendességet…",
+            "ev": "1591",
+            "vers2": "Végtelen irgalmú…",
+            "ev2": "1594"
+        },
+        {
+            "verscsoport": "Szerelmes versek",
+            "vers": "Kiben az kesergő Céliáról ír",
+            "ev": "1590–91"
+        },
+        {
+            "verscsoport": "Vitézi költészet",
+            "rowspan": 2,
+            "vers": "Egy katonaének",
+            "ev": "1589",
+            "vers2": "Búcsúja hazájától",
+            "ev2": "1589"
+        }
+    ],
+    "formFieldList": [
+        {
+            "label": "Verscsoport",
+            "name": "verscsoport",
+            "id": "elso",
+            "required": true
+        },
+        {
+            "label": "Verscím 1",
+            "name": "vers",
+            "id": "masodik",
+            "required": true
+        },
+        {
+            "label": "Évszám 1",
+            "name": "ev",
+            "id": "harmadik",
+            "required": true
+        },
+        {
+            "label": "Verscím 2",
+            "name": "vers2",
+            "id": "negyedik",
+            "required": false
+        },
+        {
+            "label": "Évszám 2",
+            "name": "ev2",
+            "id": "otodik",
+            "required": false
+        }
+    ]
+}
