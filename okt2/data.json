@@ -1,0 +1,53 @@
+{
+    "headerArray": [
+        {
+            "name": "Évszám"
+        },
+        {
+            "name": "Események",
+            "colspan": 2
+        }
+    ],
+    "tbodyArray": [
+        {
+            "evszam": "1914",
+            "esemeny": "világháború kitörése",
+            "esemeny2": "Németország megtámadja a franciákat"
+        },
+        {
+            "evszam": "1915",
+            "esemeny": "Gorlicei áttörés",
+            "esemeny2": "Gallipoli megtámadása"
+        },
+        {
+            "evszam": "1916",
+            "esemeny": "Somme-i és verduni csata",
+            "colspan": 2
+        },
+        {
+            "evszam": "1917",
+            "esemeny": "Az USA belép a háborúba",
+            "colspan": 2
+        }
+    ],
+    "formFieldList": [
+        {
+            "label": "Évszám: ",
+            "name": "evszam",
+            "id": "elso",
+            "required": true
+        },
+        {
+            "label": "Esemény: ",
+            "name": "esemeny",
+            "id": "masodik",
+            "required": true
+        },
+        {
+            "label": "Esemény 2: ",
+            "name": "esemeny2",
+            "id": "harmadik",
+            "required": false
+        }
+    ]
+}
